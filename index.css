@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+
+:root{
+    --padding:1rem;
+    --padding:1rem;
+
+}
+.tram-s{
+    display: flex;
+    flex-direction: column;
+    
+    height: 85vh;
+}
+.tram-row{
+    display: flex;
+    justify-content: space-around;
+     background-color: aqua;
+    display: grid;
+    grid-template-columns: 20%,20%,20%,20%;
+    gap: 3rem;
+    background-color: chartreuse;
+    padding: var(--padding);
+}
+.team-mamber{
+    background-color: gold;
+    padding: var(--padding);
+    height: 10rem;
+    
+
+}
